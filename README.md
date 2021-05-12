@@ -23,7 +23,7 @@
     $ git init .
     $ git add .
     $ git commit -m "initialisation"
-    $ git remote add origin git@github.com:appshore/fresco.git
+    $ git remote add origin git@github.com:appshore/frescoes.git
     $ git branch -M main
     $ git push -u origin main
 
