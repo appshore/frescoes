@@ -23,7 +23,7 @@
     $ git init .
     $ git add .
     $ git commit -m "initialisation"
-    $ git remote add origin git@github.com:appshore/fresco.git
+    $ git remote add origin git@github.com:appshore/frescoes.git
     $ git branch -M main
     $ git push -u origin main
 
@@ -74,6 +74,7 @@
 > La colonne Annee a été ajouté dans la liste pour gérer le tri 
 
 > Fonctions non implémentées Carousel et Map. Un example de projet avec cartographie est disponible https://github.com/appshore/ReactLeafletTypescript
+
 
 
 ### commandes CURL
