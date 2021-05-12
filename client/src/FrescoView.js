@@ -52,12 +52,7 @@ function FrescoView(props) {
                     <Row>
                         <Col>
                             <Card>
-                                <CardImg
-                                    top
-                                    width="100%"
-                                    src={data.PHOTO}
-                                    alt={data.PARCELLE}
-                                />
+                                <CardImg top width="100%" src={data.PHOTO} alt={data.PARCELLE} />
                             </Card>
                         </Col>
                     </Row>
