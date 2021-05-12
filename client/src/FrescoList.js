@@ -58,6 +58,7 @@ function FrescoList(props) {
                                             <th>Parcelle (ID)</th>
                                             <th>Proprietaire</th>
                                             <th>Mnemo</th>
+                                            {/* Rajout pour simlifier le tri par année */}
                                             <th onClick={() => setAscDesc(!ascdesc)}>Année{ascdesc ? '↑' : '↓'}</th>
                                             <th>Action</th>
                                         </tr>
