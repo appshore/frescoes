@@ -41,8 +41,6 @@
 
     $ npm add jest lowdb
 
-> un exemple d'architecture microservices (fault tolerant, scalable) sur Docker est disponible https://github.com/appshore/OrdersToParcelsMicroservices
-
 ### Base de données
     $ cd <racine-projet> 
     $ mkdir datasource
@@ -73,10 +71,6 @@
 
 > La colonne Annee a été ajouté dans la liste pour gérer le tri 
 
-> Fonctions non implémentées Carousel et Map. Un example de projet avec cartographie est disponible https://github.com/appshore/ReactLeafletTypescript
-
-
-
 ### commandes CURL
 
 > Requête retournant toutes les fresques
@@ -98,3 +92,13 @@ curl -X GET http://localhost:8081/frescoes/annee/asc -H 'Accept: application/jso
 > Requête par année descendante (desc est obligatoire)
 
 curl -X GET http://localhost:8081/frescoes/annee/desc -H 'Accept: application/json'
+
+### A Faire
+
+> Unit tests sur Frontend. Coverage partout.
+
+> Fonctions non implémentées Carousel et Map. Voir example avec cartographie https://github.com/appshore/ReactLeafletTypescript
+
+> Ajouter Authentication/Authorization: Voir example CRUD avec Express et Passport https://github.com/appshore/Quest
+
+> Microservices (fault tolerant, scalable) sur Docker. Voir example https://github.com/appshore/OrdersToParcelsMicroservices
