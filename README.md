@@ -34,8 +34,7 @@
     $ npm i
     $ npm start
 
-> Vérifiez que le serveur Backend est disponible sur `http://localhost:3000/`, le port sera modifié plus tard en 8081
-
+> Vérifiez que le serveur Backend est disponible sur `http://localhost:3000/`, le port est modifié plus tard en 8081 par variable d'environnement.
 
 > Arrêter le serveur Backend et ajouter les paquets suivants
 
@@ -67,7 +66,7 @@
     $ rm .gitignore
     $ npm start
 
-> Vérifiez que le serveur Frontend est disponible sur `http://localhost:3000/`, le port sera modifié plus tard en 8080
+> Vérifiez que le serveur Frontend est disponible sur `http://localhost:3000/`
 
 > La colonne Annee a été ajouté dans la liste pour gérer le tri 
 
